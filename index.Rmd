@@ -1,0 +1,29 @@
+---
+title: "A Book"
+author: "Frida Gomam"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
+---
+
+# Hello World
+
+Hi.
+
+Bye.
+
+Some mathjax:
+
+$$
+\begin{equation}  
+\begin{aligned}
+P(X=1)&=\theta^{1}(1-\theta)^{1-1}, \hspace{1cm} \theta=0.7 \\
+P(X=1)&=0.7*1=0.7 \\\\
+P(X=0)&=0.7^{0}(1-0.7)^{1-0}\\
+P(X=0)&=0.3
+\end{aligned}
+(\#eq:Examples)
+\end{equation}
+$$
